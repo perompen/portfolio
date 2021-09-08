@@ -1,0 +1,17 @@
+body {
+    text-align: center;
+}
+
+.button {
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.button:hover {
+    transform: scale(1.2);
+}
+
+.dark {
+    background-color: #222;
+    color: black;
+}
