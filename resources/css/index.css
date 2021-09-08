@@ -1,5 +1,6 @@
 body {
     text-align: center;
+    /* padding-top: 75px; */
 }
 
 .button {
@@ -13,5 +14,5 @@ body {
 
 .dark {
     background-color: #222;
-    color: black;
+    color: white;
 }
