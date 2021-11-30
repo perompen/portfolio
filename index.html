@@ -2,41 +2,23 @@
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous" />
     <link href="resources/css/index.css" rel="stylesheet" />
     <link href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" rel="stylesheet">
-
     <title>Perom Peter Pen</title>
 </head>
 
 <body>
-
-    <!-- <nav class="fixed-top navbar-white navbar navbar-expand-lg navbar-light">
-        <a href="#home" class="brand navbar-brand">&lt;Home /&gt;</a><button aria-controls="basic-navbar-nav"
-            type="button" aria-label="Toggle navigation" class="toggler navbar-toggler collapsed">
-                <span class="navbar-toggler-icon"></span></button>
-        <div class="navbar-collapse collapse" id="basic-navbar-nav">
-            <div class="mr-auto navbar-nav">
-                <a href="#aboutme" data-rb-event-key="#aboutme" class="nav-link lead nav-link active">About</a>
-                <a href="#experience" data-rb-event-key="#experience" class="nav-link lead nav-link active">Experience</a>
-                <a href="#skills" data-rb-event-key="/#skills" class="nav-link lead nav-link active">Skills</a>
-                <a href="#projects" data-rb-event-key="/#projects" class="nav-link lead nav-link active">Projects</a>
-            </div>
-        </div>
-    </nav> --->
-
-    <i class="button far fa-moon fa-4x mt-5" onclick="myFunction()"></i>
+    <!-- HOME -->
+    <i class="button far fa-moon fa-4x mt-5" onclick="darkMode()"></i>
 
     <div id="home" class="container mt-5 mb-5 text-center">
         <h1 class="display-1">Perom Peter Pen</h1>
         <div class="typist lead typist">
-            | JavaScript | CSS | HTML | Bootstrap | Git | Github |
+            | JavaScript | CSS | HTML | Bootstrap |
         </div>
         <div class="p-5">
             <a target="_blank" rel="noopener noreferrer" href="https://github.com/perompen" aria-label="My github">
@@ -45,15 +27,16 @@
                 aria-label="My linkedin">
                 <i class="fab fa-linkedin fa-4x socialicons"></i></a>
         </div>
-        <!-- <a class="btn btn-outline-dark btn-lg" href="#aboutme" role="button" aria-label="Learn more about me">More about me</a> --->
+        <!-- <a class="btn btn-outline-dark btn-lg" href="#aboutme" role="button" aria-label="Learn more about me">More about me</a> -->
     </div>
 
+    <!-- ABOUT ME -->
     <div id="aboutme" class="jumbotron jumbotron-fluid m-0" style="background-color: grey">
         <div class="container container-fluid">
             <div class="row">
                 <div class="col-5 d-none d-lg-block align-self-center">
                     <img class="border border-secondary rounded-circle" src="resources/img/IMG_4753.JPG"
-                        alt="profilepicture" width="375" height="375" />
+                        alt="profilepicture" width="375" height="375">
                 </div>
                 <div class="col-lg-7">
                     <h2 class="display-4 my-5 text-center">About Me</h2>
@@ -65,18 +48,19 @@
                         I am currently building personal projects to showcase my expertise.
                     </p>
                     <p class="lead text-center">
-                        <a class="btn btn-outline-dark btn-lg" href="..." target="_blank" rel="noreferrer noopener"
-                            role="button" aria-label="Resume/CV">Resume</a>
+                        <a class="btn btn-outline-dark btn-lg" href="resources/resume/Perom_Peter_Pen_Resume.pdf"
+                            target="_blank" rel="noreferrer noopener" role="button" aria-label="Resume/CV">Resume</a>
                     </p>
                 </div>
             </div>
         </div>
     </div>
 
-    <div id="experience" class="bg-white jumbotron jumbotron-fluid m-0"></div>
+    <!-- SKILLS/PROJECTS -->
+    <!-- <div id="experience" class="bg-white jumbotron jumbotron-fluid m-0"></div>
     <div class="container p-5">
         <h2 class="display-4 pb-5 text-center">Experience</h2>
-    </div>
+    </div> -->
 
     <div id="skills" class="bg-white jumbotron jumbotron-fluid m-0"></div>
     <div class="container p-5">
@@ -88,6 +72,7 @@
         <h2 class="display-4 pb-5 text-center">Projects</h2>
     </div>
 
+    <!-- CONTACT -->
     <footer class="mt-auto py-5 text-center" style="background-color: grey">
         <div class="container">
             <h2 class="display-4 pb-3 text-center">Get In Touch</h2>
@@ -98,21 +83,10 @@
         </div>
     </footer>
 
-
-
-    <!-- Optional JavaScript; choose one of the two! -->
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="resources/js/index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
         crossorigin="anonymous"></script>
-    <script src="resources/js/index.js"></script>
-
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
-    -->
 </body>
 
 </html>
