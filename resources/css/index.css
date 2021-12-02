@@ -5,7 +5,7 @@
 
 body {
     text-align: center;
-    /* padding-top: 75px; */
+    background-color: rgb(245,245,245)
 }
 
 .button {
@@ -18,15 +18,18 @@ body {
 }
 
 .dark {
-    background-color: #222;
+    background-color: rgb(34,34,35);
     color: white;
 }
 
 /* Container for skill bars */
 .container-skills {
     width: 100%;
-    text-align: center;
-    background-color: lightgrey;
+    background-color: rgb(211,211,211);
+}
+
+.skill {
+    text-align: left;
 }
 
 .skills {
@@ -34,13 +37,13 @@ body {
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 10px;
-    color: white;
+    color: rgb(255,255,255);
 }
 
-.js {width: 65%; background-color: red;}
-.css {width: 75%; background-color: blue;}
-.html {width: 75%; background-color: green;}
-.bootstrap {width: 85%; background-color: orange;}
-.nodejs {width: 65%; background-color: purple;}
-.git {width: 75%; background-color: black;}
-.github {width: 85%; background-color: grey;}
+.js {width: 65%; background-color: rgb(0,0,0);}
+.css {width: 75%; background-color: rgb(0,0,16);}
+.html {width: 75%; background-color: rgb(0,0,32);}
+.bootstrap {width: 85%; background-color: rgb(0,0,48);}
+.nodejs {width: 65%; background-color: rgb(0,0,64);}
+.git {width: 75%; background-color: rgb(0,0,80);}
+.github {width: 85%; background-color: rgb(0,0,96);}
