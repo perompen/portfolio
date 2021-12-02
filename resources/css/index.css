@@ -23,20 +23,24 @@ body {
 }
 
 /* Container for skill bars */
-.container1 {
-  width: 100%; /* Full width */
-  background-color: #ddd; /* Grey background */
+.container-skills {
+    width: 100%;
+    text-align: center;
+    background-color: lightgrey;
 }
 
 .skills {
-  text-align: right; /* Right-align text */
-  padding-top: 10px; /* Add top padding */
-  padding-bottom: 10px; /* Add bottom padding */
-  padding-right: 10px; /* Add right padding */
-  color: white; /* White text color */
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    color: white;
 }
 
-.js {width: 65%; background-color: #f44336;} /* Red */
-.css {width: 75%; background-color: #2196F3;} /* Blue */
-.html {width: 75%; background-color: #04AA6D;} /* Green */
-
+.js {width: 65%; background-color: red;}
+.css {width: 75%; background-color: blue;}
+.html {width: 75%; background-color: green;}
+.bootstrap {width: 85%; background-color: orange;}
+.nodejs {width: 65%; background-color: purple;}
+.git {width: 75%; background-color: black;}
+.github {width: 85%; background-color: grey;}
