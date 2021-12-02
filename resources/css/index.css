@@ -18,8 +18,8 @@ body {
 }
 
 .dark {
-    background-color: rgb(34,34,35);
-    color: white;
+    background-color: rgb(34,34,34);
+    color: rgb(255,255,255);
 }
 
 /* Container for skill bars */
@@ -28,11 +28,17 @@ body {
     background-color: rgb(211,211,211);
 }
 
-.skill {
-    text-align: left;
+.skilltext {
+    text-align: center;
+
 }
 
-.skills {
+.container-skills {
+    width: 66%;
+    margin: 0 auto;
+}
+
+.skillpercent {
     text-align: right;
     padding-top: 10px;
     padding-bottom: 10px;
