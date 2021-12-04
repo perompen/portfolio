@@ -2,20 +2,26 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Helvetica Neue",Helvetica,Arial;
+    scroll-padding-top: 65px;
 }
 
 body {
     text-align: center;
-    background-image: rgb(245,245,245);
+    padding-top: 65px; 
 }
 
 body {
     transition: background-color 1s;
 }
 
+.navbar {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 .button {
     cursor: pointer;
-    transition: all .2s ease-in-out;
     border: 5px solid;
     border-radius: 15px;
     padding: 5px;
@@ -30,18 +36,9 @@ body {
     color: rgb(255,255,255);
 }
 
-/* Container for skill bars */
 .container-skills {
     width: 100%;
     background-color: rgb(211,211,211);
-}
-
-.skilltext {
-    text-align: center;
-
-}
-
-.container-skills {
     width: 66%;
     margin: 0 auto;
 }
