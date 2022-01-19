@@ -19,19 +19,19 @@
                 <i class="button fas fa-moon fa" id="toggle-switch"></i>
             </span>
         </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav mr-auto">
-                    <a class="nav-item nav-link" href="#top">Home</a>
-                    <a class="nav-item nav-link" href="#aboutme">About Me</a>
-                    <a class="nav-item nav-link" href="#skills">Skills</a>
-                    <a class="nav-item nav-link" href="#projects">Projects</a>
-                    <a class="nav-item nav-link" href="#footer">Contact</a>
-                </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav mr-auto">
+                <a class="nav-item nav-link" href="#top">Home</a>
+                <a class="nav-item nav-link" href="#aboutme">About Me</a>
+                <a class="nav-item nav-link" href="#skills">Skills</a>
+                <a class="nav-item nav-link" href="#projects">Projects</a>
+                <a class="nav-item nav-link" href="#footer">Contact</a>
             </div>
+        </div>
     </nav>
 
     <!-- HOME -->
@@ -59,8 +59,8 @@
                 <div class="col-lg-7">
                     <h2 class="display-4 my-5 text-center">About Me</h2>
                     <p class="lead text-center">
-                        Your friendly neighborhood Web Developer! I am a Jr. Web/Front End Developer.
-                        Recently, I graduated from the Generation USA Jr. Web Developer program.
+                        Your friendly neighborhood Web Developer! I am a Front End Developer.
+                        Recently, I graduated from the Generation USA Junior Web Developer program.
                         I am starting my journey into the software development world and looking for junior-level
                         work in web/front end development. To further my skills,
                         I am currently building personal projects to showcase my expertise.
@@ -121,14 +121,22 @@
     <div id="projects" class="bg-white jumbotron jumbotron-fluid m-0"></div>
     <div class="container p-5">
         <h2 class="display-4 pb-5 text-center">Projects</h2>
-
-        <a href="https://perompen.github.io/to-do-list/" target="_blank"><img src="resources/img/To Do List.jpg"
-                alt="Task Manager" style="width: 33%"></a>
-
+        <div class="project">
+            <a href="https://perompen.github.io/to-do-list/" target="_blank"><img src="resources/img/To Do List.jpg"
+                    alt="Task Do List"></a>
+            <div class="text-block">
+                <h4>JavaScript, CSS, HTML, Bootstrap</h4>
+            </div>
+            <a href="https://perompen.github.io/calculator/" target="_blank"><img src="resources/img/Calculator.jpg"
+                    alt="Calculator"></a>
+            <div class="text-block">
+                <H4>JavaScript, CSS, HTML</H4>
+            </div>
+        </div>
     </div>
 
     <!-- CONTACT -->
-    <footer id="footer" class="mt-auto py-5 text-center" style="background-color: rgb(169,169,169)">
+    <footer id="footer" class="footer mt-auto py-5 text-center" style="background-color: rgb(169,169,169)">
         <div class="container">
             <h2 class="display-4 pb-3 text-center">Get In Touch</h2>
             <p class="lead pb-3 text-center">If you have any questions, opportunities, or if you just want to say hello,

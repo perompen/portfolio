@@ -49,10 +49,6 @@ body {
     color: rgb(245,245,245);
 }
 
-.darkmode:active {
-    color: rgb(245,245,245);
-}
-
 /* SKILLS */
 .container-skills {
     width: 100%;
@@ -76,3 +72,16 @@ body {
 .nodejs {width: 65%; background-color: rgb(0,0,64);}
 .git {width: 75%; background-color: rgb(0,0,80);}
 .github {width: 85%; background-color: rgb(0,0,96);}
+
+/* PROJECTS */
+.project {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+.project img {
+    width: 300px;
+    height: auto;
+    margin: 10px;
+}

@@ -31,4 +31,4 @@ function applyTheme() {
         document.getElementById('toggle-switch').innerHTML =
             '<i class="fas fa-moon"></i>';
     }
-}
+};
