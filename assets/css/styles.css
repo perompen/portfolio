@@ -5,6 +5,7 @@
     box-sizing: border-box;
     font-family: "Helvetica Neue",Helvetica,Arial;
     scroll-padding-top: 55px;
+    text-decoration: none;
 }
 
 /* BODY */
@@ -19,34 +20,13 @@ body {
     padding-left: 10px;
 }
 
-/* LIGHT MODE/DARK MODE */
-html {
-    background-color: rgb(245,245,245);
-    color: rgb(34,34,34);
-    transition: background-color 1s;
+/* ANIMATED TEXT */
+.typewrite {
+    color: rgb(169,169,169)
 }
 
-html.dark {
-    background-color: rgb(34,34,34);
-    color: rgb(245,245,245);
-    transition: background-color 1s;
-}
-
-body {
-    background: var(--bck-color);
-    color: var(--ft-color);
-}
-
-.darkmode {
-    cursor: pointer;
-    border: 4px solid;
-    border-radius: 10px;
-    padding: 4px;
-    color: rgb(245,245,245, 0.5);
-}
-
-.darkmode:hover {
-    color: rgb(245,245,245);
+.typewrite:hover {
+    color: rgb(169,169,169)
 }
 
 /* SKILLS */
@@ -185,4 +165,34 @@ body {
         width: 250px;
         height: auto;
     }
+}
+
+/* LIGHT MODE/DARK MODE */
+html {
+    background-color: rgb(245,245,245);
+    color: rgb(34,34,34);
+    transition: background-color 1s;
+}
+
+html.dark {
+    background-color: rgb(34,34,34);
+    color: rgb(245,245,245);
+    transition: background-color 1s;
+}
+
+body {
+    background: var(--bck-color);
+    color: var(--ft-color);
+}
+
+.darkmode {
+    cursor: pointer;
+    border: 4px solid;
+    border-radius: 10px;
+    padding: 4px;
+    color: rgb(245,245,245, 0.5);
+}
+
+.darkmode:hover {
+    color: rgb(245,245,245);
 }
