@@ -39,7 +39,6 @@ body {
     height: 200px;
     float: left;
     object-fit: cover;
-
     margin: 10px;
     padding: 10px;
     position: relative;
@@ -59,7 +58,7 @@ body {
 
 @media screen and (max-width: 650px) {
     .project img {
-        width: 285px;
+        width: 200px;
         height: 200px;
     }
 }
