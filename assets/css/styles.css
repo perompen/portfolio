@@ -40,13 +40,13 @@ body {
     float: left;
     object-fit: cover;
     margin: 10px;
-    padding: 10px;
     position: relative;
     transition: all .2s ease-in-out;
+    border: 1px black solid;
 }
 
 .project img:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 @media screen and (max-width: 990px) {
