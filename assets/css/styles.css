@@ -1,8 +1,8 @@
 /* ALL */
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     font-family: "Helvetica Neue",Helvetica,Arial;
     scroll-padding-top: 55px;
     text-decoration: none;
@@ -30,12 +30,7 @@ body {
 }
 
 /* PROJECTS */
-/* .project {
-    width: 100%;
-    height: auto;
-} */
-
-.inline-block {
+.project-box {
     display: inline-block;
 }
 
