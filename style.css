@@ -37,12 +37,12 @@ body {
 .project img {
     width: 400px;
     height: 200px;
+    margin: 10px;
+    border: 1px black solid;
     float: left;
     object-fit: cover;
-    margin: 10px;
     position: relative;
     transition: all .2s ease-in-out;
-    border: 1px black solid;
 }
 
 .project img:hover {
